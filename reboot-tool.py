@@ -2,7 +2,7 @@ import os
 import time
 import subprocess
 
-ADB_PATH = r"ADB_PATH = os.path.join(os.path.dirname(__file__), 'tools', 'adb', 'adb.exe')"
+ADB_PATH = os.path.join(os.path.dirname(__file__), 'tools', 'adb', 'adb.exe')
 
 def wait_for_device():
     print("Waiting for a device to be connected...")

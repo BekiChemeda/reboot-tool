@@ -5,6 +5,8 @@ This Python-based tool simplifies the process of booting an Android device into 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/BekiChemeda/reboot-tool.git
-2. cd reboot-tool
-3. python recovery_mode_tool.py
+2. ```bash
+   cd reboot-tool
+3. ```bash
+   python reboot-tool.py
 
